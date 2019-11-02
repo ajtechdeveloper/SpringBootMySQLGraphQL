@@ -19,7 +19,7 @@ public class EmployeeQuery implements GraphQLQueryResolver {
         return employeeservice.findAll();
     }
 
-    public long countEmployees () {
+    public long countEmployees() {
         return employeeservice.count();
     }
 
